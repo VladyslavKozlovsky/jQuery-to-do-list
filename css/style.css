@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border-radius: 15px;
+}
+
+
+
+.frame {
+  text-align: center;
+  width: 400px;
+  height: 650px;
+  border: 1px solid silver;
+  margin: 50px auto;
+  position: relative;
+  background: #d9e9ff
+}
+
+.h1 {margin: 20px}
+
+.input {
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  border: 3px solid silver;
+}
+
+.input, .tasks {font-size: 24px}
+
+.btn {
+  padding: 10px;
+  width: 95px;
+  margin: 5px;
+  color: #fafafa;
+  background: #223c50;
+  transition: all 1s ease;
+}
+
+.btn:hover {
+  color: #c4c4c4;
+  background: #375d7a
+}
+
+.btn_gr {
+  width: 80%;
+  padding: 10px;
+  margin: 20px 35px 20px;
+  display: flex
+}
+
+.clear_btns {
+  width: 100px;
+  position: absolute;
+  top: 135px;
+  left: 255px
+}
+
+.tasks {
+  margin: auto;
+  border: 1px solid silver;
+  width: 80%;
+  padding: 10px;
+  height: 340px;
+  text-align: left;
+  overflow-y: auto;
+  background-color: #f9f9fd;
+}
+
+.tasks::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f9f9fd;
+}
+
+.tasks::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #223c50
+}
+
+.task_text:hover {
+  text-decoration: underline;
+  cursor: pointer
+}
+
+.info {
+  position: absolute;
+  text-align: center;
+  width: 250px;
+  top: 10px;
+  left: 65px;
+  font-size: 32px;
+  padding: 10px;
+  border: 3px solid silver;
+  color: #fafafa;
+  background: #223c50
+}
+
+.num_tasks, .check_tasks {display: flex}
+
+
+.finished, .checked {
+  color:#a8a8a8
+}
+
+.finished div, .unfinished div, .numbers div, .checked div {
+  height: 35px;
+  display: flex;
+}
+
+.numbers div, .checked div {
+  width: 20px;
+}
+
+.hidden {display: none}
+
+.striked{text-decoration: line-through}

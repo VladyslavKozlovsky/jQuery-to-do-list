@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Выполнение задания девятого модуля">
+  <meta name="author" content="Владислав Козловский">
+  <link href="img/favicon.png" rel="shortcut icon" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>jQuery</title>
+</head>
+<body>
+  <div class="frame">
+    <form clss="form">
+      <h1 class="h1">Список дел</h1>
+      <input type="text" class="input">
+      <div class="btn_gr">
+        <button class="add-btn btn">Добавить</button>
+        <button class="show-btn btn">Вывести</button>
+        <button class="clear-btn btn">Очистить</button>
+      </div>
+      <div class="clear_btns hidden">
+        <button class="clear_all_btn btn">Все</button>
+        <button class="clear_fin_btn btn">Отмеченные</button>
+      </div>
+      <div class="tasks">
+        <div class="num_tasks">
+          <div class="numbers">
+          </div>
+          <div class="unfinished">
+          </div>
+        </div>
+        <div class="check_tasks">
+          <div class="checked">
+          </div>
+          <div class="finished">
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
